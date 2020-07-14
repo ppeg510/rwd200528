@@ -1,0 +1,235 @@
+@charset "UTF-8";
+@import url("http://ppeg510.dothome.co.kr/200528/cssReset/reset.css");
+
+
+div#wrap {
+	width: 900px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+
+/* div#top 시작*/
+
+div#top {
+/*	border: 1px solid #000;*/
+	position: relative;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+div#top span {
+	font-size: 8px;
+	color: #09768b;
+	margin-right: 4px;
+}
+
+div#top input {
+	width: 120px;
+	padding: 8px 4px;
+	margin: 0 6px;
+	border: 1px solid #ddd;
+}
+
+div#top button {
+	background-color: #3d7b0e;
+	color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	padding: 4px 16px;
+
+}
+
+div#top div#dateBtn {
+	padding: 10px 0;
+
+	position: absolute;
+	right: 0;
+	top: 0;
+
+}
+
+/* div#top 끝*/
+
+/* div#serch 시작*/
+
+div#serch {
+	border: 1px solid #ddd;
+	border-top: 2px solid #09768b;
+	height: 80px;
+	text-align: center;
+	background-color: #f9f9f9;
+	margin-bottom: 20px;
+}
+
+div#serch select {
+	border: 1px solid #ddd;
+	width: 110px;
+	padding: 10px;
+
+	position: relative;
+	left: 6px;
+	top: 3px;
+}
+
+div#serch input {
+	border: 1px solid #ddd;
+	width: 680px;
+	padding: 10px 0;
+
+}
+
+div#serch input::placeholder {
+	color: #09768b;
+	text-align: center;
+}
+
+div#serch button {
+	border: none;
+	background-color: #09768b;
+	color: #fff;
+	padding: 10px 18px;
+
+	position: relative;
+	right: 7px;
+	top: 2px;
+
+}
+
+div#serchPos {
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%)
+
+}
+
+
+/* div#serch 끝*/
+
+/* div#notice 시작*/
+
+div#notice {
+	border: 1px solid #ddd;
+	border-top: 2px solid #09768b;
+	background-color: #f9f9f9;
+	height: 110px;
+	padding-top: 24px;
+	margin-bottom: 20px;
+
+}
+
+div#notice span {
+	padding-left: 32px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+div#notice ul li {
+	list-style: none;
+	font-size: 13px;
+	line-height: 22px;
+}
+
+/* div#notice 끝*/
+
+div#wrap span#allPage {
+	display: inline-block;
+	margin-bottom: 20px;
+	font-size: 14px;
+
+}
+
+div#wrap span#allPage span {
+	font-weight: bold;
+}
+
+/* div#bbs 시작*/
+
+div#bbs table {
+	border-top: 2px solid #3f7a10;
+	border-collapse: collapse;
+	width: 900px;
+	margin-bottom: 20px;
+}
+
+div#bbs table tr {
+	border: 1px solid #ddd;
+	border-left: none;
+	border-right: none;
+
+}
+
+
+div#bbs table td {
+	border: 1px solid #ddd;
+	border-left: none;
+	border-right: none;
+	padding: 10px 0;
+	text-align: center;
+	font-size: 14px;
+
+}
+
+div#bbs table tr:first-child {
+	font-weight: bold;
+}
+
+/* div#bbs 끝*/
+
+/* div#bottom 시작*/
+
+div#bottom div#pageNum {
+	text-align: center;
+
+}
+
+div#bottom span {
+	padding: 0 8px;
+}
+
+div#bottom span:nth-child(2) {
+	border: none;
+	background-color: #3f7a10;
+
+}
+
+
+div#bottom span a#aFst {
+	color: #fff;
+
+}
+
+div#bottom span.giho {
+	border: 1px solid #ddd;
+	padding: 0 4px;
+}
+
+
+div#bottom span.giho a {
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+
+}
+
+div#bottom div#write {
+	position: relative;
+}
+
+div#bottom div#write button {
+	border: none;
+	padding: 8px 30px;
+	background-color: #3f7a10;
+	color: #fff;
+
+	position: absolute;
+	right: 0;
+	bottom: -70px;
+
+
+}
+/* div#bottom 끝*/
+
+
